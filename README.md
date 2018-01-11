@@ -2,13 +2,13 @@
 
 Little boilerplate for Hapi-Api-Apps.
 
+## Install
+
+`HBP=PROJECTNAME git clone https://github.com/platdesign/hapi-boilerplate.git $HBP && cd $HBP && npm i`
 
 ## Commands
 
 ```sh
-# Install
-npm i
-
 # Run test
 npm test
 
