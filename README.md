@@ -6,6 +6,9 @@ Little boilerplate for Hapi-Api-Apps.
 ## Commands
 
 ```sh
+# Install
+npm i
+
 # Run test
 npm test
 
