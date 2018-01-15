@@ -13,6 +13,7 @@
   "dependencies": {
     "boom": "^7.1.1",
     "config": "^1.29.1",
+    "glob": "^7.1.2",
     "good": "^8.0.0-rc1",
     "good-console": "^6.4.1",
     "good-squeeze": "^5.0.2",
@@ -21,8 +22,8 @@
   },
   "scripts": {
     "dev": "NODE_ENV=development nodemon .",
-    "start":"node .",
-    "test":"NODE_ENV=test mocha"
+    "start": "node .",
+    "test": "NODE_ENV=test mocha"
   },
   "devDependencies": {
     "code": "^5.1.2",
