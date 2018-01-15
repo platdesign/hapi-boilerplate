@@ -81,7 +81,7 @@ module.exports = {
 				return acc;
 			}, []);
 
-		server.route(...defs);
+		defs.forEach(def => server.route(def));
 
 		server.log(['plugin:routes'], `Registered ${defs.length} route(s)`);
 	},
